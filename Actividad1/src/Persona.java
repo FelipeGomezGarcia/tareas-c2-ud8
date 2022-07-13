@@ -9,10 +9,9 @@ public class Persona {
 	private double peso;
 	private double altura;
 	
-	public Persona(String dni) {
+	public Persona() {
 		this.nombre = "";
 		this.edad = 0;
-		this.dni = dni;
 		this.sexo = GENERO;
 		this.peso = 0.0;
 		this.altura = 0.0;
