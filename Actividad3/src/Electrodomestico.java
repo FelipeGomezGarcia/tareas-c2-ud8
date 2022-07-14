@@ -53,7 +53,7 @@ public class Electrodomestico {
 		boolean valido = false;
 		int i = 0;
 		
-		String consum = "ABCDF";
+		String consum = "ABCDEF";
 		while (i < consum.length()) {
 			if (consum.charAt(i) == consumo) {
 				valido = true;
